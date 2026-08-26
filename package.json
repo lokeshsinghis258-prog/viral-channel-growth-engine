@@ -1,0 +1,40 @@
+{
+  "name": "viral-channel-growth-engine",
+  "version": "1.0.0",
+  "description": "Free AI-powered mobile app for organic Instagram & YouTube growth optimization",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "build:frontend": "cd frontend && npm run build",
+    "dev:full": "concurrently \"npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "node-cache": "^5.1.2",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "keywords": [
+    "instagram",
+    "youtube",
+    "growth",
+    "analytics",
+    "ai",
+    "free",
+    "mobile",
+    "organic",
+    "content-optimization"
+  ],
+  "author": "lokeshsinghis258-prog",
+  "license": "MIT"
+}
